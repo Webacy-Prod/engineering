@@ -21,6 +21,7 @@ At webacy we use `Jest` as our testing framework. Jest is a JavaScript testing f
 ### Testing best practices
 
 - Test only one thing per test if possible
+- Each test should be atomic and independent from other tests
 - Identify the different scenarios that your code can handle, take a look at the different paths that your code can take and test each one of them (EG. if statements, for loops, etc.)
 - Use descriptive names for your tests
 - Use `beforeEach` and `afterEach` to setup and teardown your tests
